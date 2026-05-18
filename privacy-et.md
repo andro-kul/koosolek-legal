@@ -3,6 +3,36 @@ layout: default
 title: Privaatsuspoliitika — Koosolek
 ---
 
+
+# Privaatsuspoliitika — Koosolek
+
+
+Viimati uuendatud: 17. mai 2026
+
+
+## Lühikokkuvõte
+
+
+Koosolek on koosolekute salvestamise ja protokollimise app, mis on disainitud **privaatsust säilitava** põhimõtte järgi. Sinu heli ja andmed jäävad sinu seadmesse — me ei saada midagi oma serverisse.
+
+
+## Andmete kogumine
+
+
+### Mis andmed jäävad sinu seadmesse (lokaalselt)
+
+
+| Andmed | Kuidas kogutakse | Kus salvestatakse |
+|---|---|---|
+| Heli salvestus (WAV) | Mikrofoniga, sinu nõusolekul | Telefoni Documents kausta |
+| Transkriptsioon | OpenAI API tagastab | SwiftData SQLite andmebaas |
+| Protokoll | OpenAI API genereerib | SwiftData |
+| Kalendri sündmused (vaadatakse) | iOS EventKit (sinu nõusolekul) | Ei salvestata äpis |
+| Osalejad, action item'id | App'i poolt arvutatakse | SwiftData |---
+layout: default
+title: Privaatsuspoliitika — Koosolek
+---
+
 # Privaatsuspoliitika — Koosolek
 
 Viimati uuendatud: 17. mai 2026
